@@ -1,0 +1,32 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: true
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Catatan Mahasiswa
+
+description: Blog Mahasiswa Sederhana
+author:
+  name: sofian
+  email: sofian.nugraha@yahoo.com
+  github: sofianugraha
+  twitter: sofiangrh
+  pinterest: sofiangrh
+  linkedin: sofian-nugraha
+  bio: Seorang Manusia. Mahasiswa Sederhana. Pecandu OSS. 
+  email_md5: 07ba8e922d64fd7f79f31fce97928b0a
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
