@@ -23,3 +23,16 @@ Saya mempunyai beberapa tips yang memang sederhana untuk bagaimana caranya agar 
    Dengan bergabungnya dalam sebuah komunitas, jika kita menemukan suatu masalah atau kesulitan kita bisa berinteraksi dengan pengguna lainnya dan ini bisa menjadi suatu solusi untuk mengatasi masalah tersebut.
 
 Dengan sering menggunakan perangkat lunak yang beragam, secara otomatis mendidik kita untuk melihat keragaman dan juga lebih mudah untuk beradaptasi. Semua perangkat lunak memiliki kelebihan dan kekurangan masing-masing, mari kita belajar untuk menggunakan perangkat lunak yang tersedia secara legal. 
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'YOUR_SHORTNAME'; // required: replace example with your forum shortname
+
+     /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+       var s = document.createElement('script'); s.async = true;
+     s.type = 'text/javascript';
+       s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+     }());
+</script>
