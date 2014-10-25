@@ -66,7 +66,7 @@ article .share .twitter:hover {
 	color: #CC2127;
 }
 #contact-list li:hover .fa-rss {
-	color: #e74c3c;
+	color: #2574A9;
 }
 article .share .facebook:hover {
 	color: #43609C;
@@ -130,7 +130,7 @@ article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #2574A9;
 }
 
 .author .author-image {
