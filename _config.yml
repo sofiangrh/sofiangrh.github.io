@@ -15,8 +15,8 @@ defaults:
       title: Catatan Mahasiswa
 
 description: Blog Mahasiswa Sederhana
-author: sofian
-  name:
+author: 
+  name: sofian
   email: sofian.nugraha@yahoo.com
   github: sofianugraha
   twitter: sofiangrh
