@@ -115,11 +115,7 @@
 
 		<hr>
 	</div>
-	
-	<div class="col-sm-2 sidebar-2">
-	
-	</div>
-{% if page.allow_comments != false %}
+	{% if page.allow_comments != false %}
         <div id="disqus_thread" name="disqus_thread"></div>
         <script type="text/javascript">
             var disqus_shortname = 'mahasiswasederhana';
@@ -133,8 +129,6 @@
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 {% endif %}
 
-</article>
-<div class="clearfix"></div>
 <script type="text/javascript">
   var disqus_shortname = 'mahasiswasederhana';
   (function () {
@@ -144,3 +138,8 @@
   (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
   }());
 </script>
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
