@@ -30,3 +30,21 @@ categories_path: categories.html
 tags_path: tags.html
 
 BASE_PATH:
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use.
+# Set 'provider' to false to turn commenting off globally.
+#
+comments :
+    provider : disqus
+    disqus :
+      short_name : mahasiswasederhana
+    livefyre :
+      site_id :
+    intensedebate :
+      account :
+    facebook :
+      appid :
+      num_posts:
+      width:
+      colorscheme:
