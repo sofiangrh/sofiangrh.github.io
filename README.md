@@ -1,6 +1,6 @@
-## My blog
+## Blog Pribadi
 [mahasiswasederhana.com](http://mahasiswasederhana.com)<br>
-Sebuah catatan biasa dari seorang mahasiswa sederhana.
+Catatan dari seorang mahasiswa sederhana.
 
-## Theme 
-[dbyl](https://github.com/dbtek/dbyll) theme. Open source stylish, minimalistic theme by [dbtek](https://github.com/dbtek).
+## Tema
+tema [dbyl](https://github.com/dbtek/dbyll) oleh [dbtek](https://github.com/dbtek).
