@@ -6,6 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: true
 markdown: kramdown
 
+permalink: "/:title"
 
 defaults:
   -
