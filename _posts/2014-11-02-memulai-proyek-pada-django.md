@@ -19,6 +19,7 @@ Beberapa dari Anda mungkin sudah pernah mendengar kata Django terutama bagi Anda
 
 
 Selesai untuk proses pemasangan Django, sekarang langkah-langkah untuk memulai proyek.
+
 1. Buat proyek dan ketikan perintah berikut ke dalam *console*.
    <p><code>$ django-admin.py startproject namaproyek</code></p>
 
