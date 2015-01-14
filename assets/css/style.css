@@ -4,6 +4,7 @@ body{
 	color: #2c3e50;
 }
 
+/* side bar content */ 
 .sidebar {
 	position: fixed;
 	top: 0px;
