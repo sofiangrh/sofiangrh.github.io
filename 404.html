@@ -7,10 +7,10 @@
   {% endfor %}
    jQuery(function($)
    {
-     //get the current pathname
+     // get the current pathname
      var currentPath = window.location.pathname
      
-     //compare to the list
+     // compare to the list
      for(var key in forwardLinks){
        var link = forwardLinks[key]
        if(link.old == currentPath){
