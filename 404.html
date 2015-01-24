@@ -9,11 +9,12 @@
    {
      // get the current pathname
      var currentPath = window.location.pathname
-     
+    
      // compare to the list
      for(var key in forwardLinks){
        var link = forwardLinks[key]
-       if(link.old == currentPath){
+       if(link.old == currentPath)
+       
          //set the redirect
          setTimeout("window.location.replace('"+link.new+"')", 5000)
          return
