@@ -2,7 +2,7 @@
 layout: post
 title: Mesin Pencari Melemahkan Ingatan?
 categories: [uneg-uneg]
-tags: [search engine, yahoo, google]
+tags: [mesin pencari]
 fullview: true.
 ---
 
