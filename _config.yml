@@ -15,7 +15,7 @@ defaults:
     values:
       title: Catatan Mahasiswa
       
-# deskripsi blog
+# Deskripsi blog
 description: Blog Mahasiswa Sederhana
 author: 
   name: sofian
