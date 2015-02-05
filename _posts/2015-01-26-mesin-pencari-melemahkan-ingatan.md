@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesin Pencari Melemahkan Ingatan?
-categories: [uneg-uneg]
+categories: [unek-unek]
 tags: [mesin pencari]
 fullview: true.
 ---
