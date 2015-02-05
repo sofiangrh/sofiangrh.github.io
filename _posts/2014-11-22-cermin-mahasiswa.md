@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cermin Mahasiswa.
-categories: [uneg-uneg]
+categories: [unek-unek]
 tags: [kampus, mahasiswa]
 fullview: true.
 ---
