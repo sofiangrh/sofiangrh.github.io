@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Penggunaan Smartphone.
-categories: [uneg-uneg]
+categories: [unek-unek]
 tags: [smartphone, teknologi]
 fullview: true.
 ---
