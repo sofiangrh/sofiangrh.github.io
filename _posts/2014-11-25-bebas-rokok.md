@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bebas Rokok?
-categories: [uneg-uneg]
+categories: [unek-unek]
 tags: [kampus, mahasiswa, merokok]
 fullview: true.
 ---
