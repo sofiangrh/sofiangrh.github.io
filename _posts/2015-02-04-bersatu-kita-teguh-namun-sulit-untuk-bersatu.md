@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bersatu Kita Teguh, Namun Sulit Untuk Bersatu.
-categories: [uneg-uneg]
+categories: [unek-unek]
 tags: [organisasi]
 fullview: true.
 ---
