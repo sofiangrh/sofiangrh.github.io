@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Proxy Pintar.
-categories: [uneg-uneg]
+categories: [unek-unek]
 tags: [text mining, proxy]
 fullview: true.
 ---
