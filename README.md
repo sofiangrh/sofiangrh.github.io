@@ -1,4 +1,4 @@
-# Blog Pribadi
+# Tentang
 [mahasiswasederhana.com](http://mahasiswasederhana.com)<br>
 Sebuah catatan dari seorang mahasiswa sederhana
 
