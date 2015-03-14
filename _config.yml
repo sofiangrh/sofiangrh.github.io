@@ -36,7 +36,7 @@ BASE_PATH:
 # Bantuan pengaturan komentar
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
-# 
+
 comments :
     provider : disqus
     disqus :
