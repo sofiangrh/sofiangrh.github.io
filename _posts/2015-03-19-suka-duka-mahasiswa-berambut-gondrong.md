@@ -1,0 +1,13 @@
+---
+layout: post
+title: Suka Duka Mahasiswa Berambut Gondrong.
+categories: [unek-unek]
+tags: [mahasiswa, kampus, gondrong]
+fullview: true.
+---
+
+Gondrong merupakan sebuah fenomena yang sering ditemui pada mahasiswa di perguruan tinggi, baik perguruan tinggi swasta maupun perguruan tinggi negeri. Gondrong merupakan sebutan untuk seorang anak laki-laki yang mempunyai rambut panjang. Meskipun mahasiswa dengan rambut gondrong sering dijumpai, namun banyak reaksi yang dirasakan ketika seseorang melihat sosok mahasiswa yang berambut gondrong. Mulai dari pujian seperti "rambutnya bagus" sampai memandang si gondrong dengan tatapan aneh (seperti melihat orang asing). Ya, itulah yang Saya rasakan selama kurang lebih satu tahun dengan rambut Saya yang gondrong. Pada waktu satu tahun itu pula Saya banyak mendapat sebuah pengalaman, kejadian-kejadian lucu serta suka duka yang Saya rasakan dan mungin tidak akan Saya dapatkan jikalau Saya tidak berambut gondrong.  
+
+Dalam kehidupan kampus Saya yang sehari-hari diwarnai dengan tinta hitam dan kertas putih, kerap kali Saya mengalami kejadian-kejadian unik dengan rambut gondrong Saya di lingkungan kampus, yakni seperti dianggap sebagai mahasiswa veteran yang mengulang salah satu mata kuliah pada saat ujian atau pada saat mengikuti kuliah di kelas oleh dosen, dianggap sebagai mahasiswa senior dan bahkan tak sedikit yang menyapa Saya dengan sebutan Aa (sebutan lain untuk kakak laki-laki dalam bahasa sunda) padahal umur Saya jauh dibawah orang yang menyapa Saya itu. Kejadian-kejadian unik itu terjadi karena rambut gondrong Saya. Berbagai tanggapan dari teman-teman di kampus pun bermunculan, mulai dari pujian, dukungan untuk terus memanjangkan rambut sampai saran untuk memotong rambut seperti "rambut udah panjang nih, kapan pendek?".
+
+Tetapi ada juga beberapa reaksi yang secara tidak langsung yang Saya rasakan, salah satunya adalah seperti melihat Saya seakan-akan Saya ini adalah "orang asing" dengan rambut gondrong yang terdampar di sebuah pulau terpencil kemudian selamat. Ya, orang asing. Saya bisa melihat itu dari mata mereka walaupun mulut mereka diam. Saya tidak akan menyalahkan mereka dan tidak ambil pusing dengan apa yang mereka tanggapi. Selama Saya masih melakukan kewajiban dan tanggung jawab Saya sebagai pelajar (mahasiswa) masih dilaksanakan. Selama rambut Saya terawat dengan baik, rutin dan Saya merasa nyaman dengan rambut gondring ini. Mungkin ini hanya masalah penyesuaian dalam lingkungan baru saja, mengingat sekarang ini Saya menetap di lingkungan yang jauh berbeda dengan lingkungan Saya yang sebelumnya. Dan Saya akan berusaha untuk menyesuaikan dengan lingkungan baru ini. Inilah sebuah proses yang Saya hadapi sekarang dan ini masih akan terus berlanjut.
