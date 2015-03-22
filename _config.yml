@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Catatan Saja
+      title: Catatan Mahasiswa
       
 # Deskripsi blog
 description: Blog Mahasiswa Sederhana
