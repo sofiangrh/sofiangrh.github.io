@@ -9,7 +9,7 @@ fullview: true
 Ini untuk oknum-oknum mahasiswa diluar sana. 
 
 <div style="text-align:center" markdown="1">
- <img src="http://s22.postimg.org/ajg6uk1e9/1860687_20130723063117.jpg" align="center">
+ <img src="http://s12.postimg.org/xcl45mzzx/1860687_20130723063117.jpg" align="cente">
 </div>
 
-Sekian. 
+Sekian.
