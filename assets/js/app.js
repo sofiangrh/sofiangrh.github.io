@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-	/* Sidebar height set */
+	/* Tinggi sidebar */
 	$('.sidebar').css('min-height',$(document).height());
 
 	/* Secondary contact links */
