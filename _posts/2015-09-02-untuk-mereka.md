@@ -13,7 +13,7 @@ Namun sayang dalam kegiatan tersebut masih ada beberapa hal yang Saya rasa tidak
 Karena oknum-oknum seperti mereka yang membuat kesan [ospek](https://id.wikipedia.org/wiki/Orientasi_Studi_dan_Pengenalan_Kampus) menjadi identik dengan kekerasan dan perpeloncoan. Sudah seharusnya mahasiswa harus megubah pola pikir untuk tidak meggunakan tradisi [ospek](https://id.wikipedia.org/wiki/Orientasi_Studi_dan_Pengenalan_Kampus) seperti itu. Kegiatan ospek akan jauh lebih menyenangkan jika semua (peserta dan panitia) bisa saling menghargai. Sikap Mereka tergantung bagaimana sikap Anda.
 
 <div style="text-align:center" markdown="1">
-  <img src="http://s14.postimg.org/9072djx2p/1860687_20130723063117.jpg" height="425" width="300" align="center">
+  {% include image name="studio.jpg" caption="A Quote" %}
 </div>
 
 Sekian.

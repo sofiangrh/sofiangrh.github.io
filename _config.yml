@@ -15,13 +15,13 @@ defaults:
     values:
       title: Catatan Mahasiswa
       
-# Deskripsi blog
+# Pengaturan General
 description: Blog Mahasiswa Sederhana
 author: 
   name: sofian
   email: id.sofiangrh@gmail.com
   github: sofiangrh
-  twitter: sofiangrh
+  dribbble: sofiangrh
   pinterest: sofiangrh
   linkedin: sofiangrh
   bio: Udah gak gondrong. Pengguna OSS.
