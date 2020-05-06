@@ -1,24 +1,10 @@
-<script type="text/javascript">
-   var forwardLinks = []
-   {% for post in site.posts %}	
-   	{% if post.oldurl %}
-   	  forwardLinks.push({ "old":"{{post.oldurl}}", "new":"{{post.url}}" })
-  	{% endif %}
-  {% endfor %}
-   jQuery(function($)
-   {
-     // get the current pathname
-     var currentPath = window.location.pathname
-    
-     // compare to the list
-     for(var key in forwardLinks){
-       var link = forwardLinks[key]
-       if(link.old == currentPath)
-       
-         //set the redirect
-         setTimeout("window.location.replace('"+link.new+"')", 5000)
-         return
-       }
-     }
-   })
-</script>
+---
+layout: default
+title: 404
+permalink: /404.html
+---
+
+<div class="text-center">
+<h1 class="display-1 mt-5 mb-4"><span class="badge badge-danger">404</span> Page does not exist!</h1>
+<p>Please use the search bar at the top or visit our <a href="{{site.baseurl}}/">homepage</a>!</p>
+</div>
