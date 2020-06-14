@@ -1,5 +1,5 @@
 # Site
-name: "Catatan Mahasiswa"
+name: "Sofian Nugraha"
 title: "Hello, my name is Sofian Nugraha."
 description: "Sofian Nugaha Portfolio Website."
 logo: 'assets/images/logo.png'
@@ -20,7 +20,7 @@ authors:
     email: id.sofiangrh@gmail.com
     web: https://sofiangrh.github.io
     twitter: https://twitter.com/sofiangrh
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "Sofian Nugaha Portfolio Website."
 
 # Plugins
 plugins:
