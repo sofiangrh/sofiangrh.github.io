@@ -4,7 +4,6 @@ title: Untuk "Mereka"
 author: Sofian
 categories: [unek-unek]
 tags: [mahasiswa, ospek]
-fullview: true
 image: assets/images/untuk-mereka.jpg
 ---
 
