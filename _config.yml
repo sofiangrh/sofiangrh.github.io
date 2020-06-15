@@ -13,14 +13,14 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
+  Sofian:
     name: Sofian
     display_name: Sofian
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: id.sofiangrh@gmail.com
     web: https://sofiangrh.github.io
     twitter: https://twitter.com/sofiangrh
-    description: "Sofian Nugaha Portfolio Website."
+    description: "I'm a UI/UX designer with passion & enthusiasm for designing beautiful interfaces and functional user experiences. I also writes about design & digital products. Love working together and sharing beautiful experiences."
 
 # Plugins
 plugins:
