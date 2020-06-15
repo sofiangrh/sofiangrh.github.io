@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Untuk "Mereka"
+author: Sofian
 categories: [unek-unek]
 tags: [mahasiswa, ospek]
 fullview: true
+image: assets/images/untuk-mereka.jpg
 ---
 
 Ada satu (lagi) kegiatan "menarik" yang harus ditempuh oleh para mahasiswa/i baru sebelum memasuki kegiatan perkuliahan di lingkungan kampus, yakni [ospek](https://id.wikipedia.org/wiki/Orientasi_Studi_dan_Pengenalan_Kampus). Ya.. [Ospek](https://id.wikipedia.org/wiki/Orientasi_Studi_dan_Pengenalan_Kampus). Suatu kegiatan yang pada intinya untuk memperkenalkan kampus kepada mahasiswa baru. Baik dari lingkungan serta suasana yang berbeda dari lingkungan semasa mahasiswa/i tersebut masih menjadi siswa/i di sekolah menengah. Dan memang diperlukan sebuah adaptasi untuk melewati masa-masa sepeti itu.
