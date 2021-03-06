@@ -92,6 +92,11 @@ header .subtitle {
     font-size: 1.2em;
     line-height: 1.5em;
 }
+header .patnolpat {
+    margin-top: 190px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
 
 header .lang.block {
     --block-background-color: #000;
