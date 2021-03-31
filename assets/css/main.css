@@ -30,7 +30,7 @@ main {
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 38px;
     color: var(--block-accent-color);
     margin: .5rem 0;
     text-align: center;
