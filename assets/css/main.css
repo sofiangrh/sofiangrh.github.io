@@ -1,7 +1,6 @@
 html {
     --ff-mono: 'IBM Plex Mono', monospace;
     --ff-sans: 'IBM Plex Sans', sans-serif;
-    --ff-title: 'Alfa Slab One', sans-serif;
     font-size: 18px;
 }
 
@@ -29,8 +28,9 @@ main {
 }
 
 h1 {
-    font-family: var(--ff-title);
+    font-family: 'Playfair Display';
     font-weight: normal;
+    font-size: 18px;
     color: var(--block-accent-color);
     margin: .5rem 0;
     text-align: center;
@@ -38,8 +38,9 @@ h1 {
 }
 h2,
 h3 {
-    font-family: var(--ff-title);
+    font-family: 'Playfair Display';
     font-weight: normal;
+    font-size: 18px;
     color: var(--block-accent-color);
     margin: .5rem 0;
     text-align: center;
@@ -102,7 +103,7 @@ header .lang.block {
     --block-background-color: #000;
 
     font-size: 1.4em;
-    font-family: var(--ff-title);
+    font-family: 'Playfair Display';
     font-weight: normal;
     color: #fff;
     display: inline-block; /* for transforms */
