@@ -28,7 +28,7 @@ main {
 }
 
 h1 {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
     font-size: 18px;
     color: var(--block-accent-color);
@@ -103,7 +103,7 @@ header .lang.block {
     --block-background-color: #000;
 
     font-size: 1.4em;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
     color: #fff;
     display: inline-block; /* for transforms */
