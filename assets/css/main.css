@@ -53,27 +53,29 @@ h3 {
 @media only screen and (max-width: 950px) {
     h1
     {
-        width: 100vw;
-        margin-left: 20%;
-        display:flex; flex-direction:column; justify-content:center;
-
+        width: 90vw;
+        margin-left: 25%;
+        font-size: 14vw;
+        max-width: 78%;
     }
    
     p
     {
         width: 100vw;
-        margin-left: 20%;
+        margin-left: 25%;
         justify-content:center;
-        max-width: 81%;
-        position: relative;
-        display: inline-block;
+        max-width: 74%;
+        font-size: 10vw;
+        /* position: relative; */
+        /* display: inline-block; */
     }
 
     .quote, .quote-bottom, .penutup
     {
-        width: 90vw;
-        margin-left: 20%;
-        margin-right: -20%;
+        width: 74%;
+        margin-left: 25%;
+        font-size: 10vw;
+        /* margin-right: -20%; */
     }
 }
 
