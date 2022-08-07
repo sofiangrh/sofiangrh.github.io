@@ -17,6 +17,9 @@ html,
 body {
     --block-accent-color: #212D72;
     margin-left: -48px;
+    /* width: 100%; */
+    /* margin:0 auto; */
+    display:flex; flex-direction:column; justify-content:center;
     background: #F6F6F6;
 }
 
@@ -45,6 +48,33 @@ h3 {
     color: var(--block-accent-color);
     margin: .5rem 0;
     text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    h1
+    {
+        width: 100vw;
+        margin-left: 20%;
+        display:flex; flex-direction:column; justify-content:center;
+
+    }
+   
+    p
+    {
+        width: 100vw;
+        margin-left: 20%;
+        justify-content:center;
+        max-width: 81%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .quote, .quote-bottom, .penutup
+    {
+        width: 90vw;
+        margin-left: 20%;
+        margin-right: -20%;
+    }
 }
 
 p {
