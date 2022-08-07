@@ -51,16 +51,14 @@ h3 {
 }
 
 @media only screen and (max-width: 950px) {
-    h1
-    {
+    h1 {
         width: 90vw;
         margin-left: 25%;
         font-size: 14vw;
         max-width: 78%;
     }
    
-    p
-    {
+    p {
         width: 100vw;
         margin-left: 25%;
         justify-content:center;
@@ -70,13 +68,22 @@ h3 {
         /* display: inline-block; */
     }
 
-    .quote, .quote-bottom, .penutup
-    {
+    .quote, .quote-bottom, .penutup {
         width: 74%;
         margin-left: 25%;
         font-size: 10vw;
         /* margin-right: -20%; */
     }
+
+    .img-title {
+       margin-left: 23%;
+    }
+
+    .img-post {
+        margin-left: 23%;
+        width: 340px;
+        height: 340px;
+     }
 }
 
 p {
@@ -93,6 +100,37 @@ p {
     font-size: 37px;
     font-weight: bold;
     font-family: 'Playfair Display';
+}
+
+.article 
+{
+    margin-top: -20px;
+    margin-bottom: 27px;
+    font-size: 37px;
+    font-family: 'Playfair Display', serif;
+    color: #212D72;
+    width: 120%;
+}
+
+.article-paragraph
+{
+    margin-top: 10px;
+    margin-bottom: 27px;
+    font-size: 37px;
+    font-family: 'Playfair Display', serif;
+    color: #212D72;
+    width: 120%;
+}
+
+.article-date
+{
+    margin-top: -20px;
+    margin-bottom: 27px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #212D72;
+    width: 120%;
 }
 
 .quote {
@@ -128,6 +166,31 @@ a {
     background-color: #212D72;
     text-decoration: none;
 }
+
+.judul-post {
+    margin-bottom: 27px;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+
+.link-post {
+    color: #FFF;
+    background-color: #212D72;
+    text-decoration: none;
+}
+
+/* .img-title {
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+} */
+
+/* .img-post {
+    width: 500px;
+    height: 500px;
+} */
+
 
 button {
     font-size: 1em;
@@ -314,7 +377,7 @@ footer a {
     color: var(--block-accent-color);
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     header .subtitle {
         line-height: 1.7em;
     }
@@ -328,4 +391,4 @@ footer a {
     .desktop {
         display: none;
     }
-}
+} */
