@@ -15,7 +15,7 @@ html {
 
 html,
 body {
-    --block-accent-color: #212D72;
+    --block-accent-color: #000000;
     margin-left: -48px;
     /* width: 100%; */
     /* margin:0 auto; */
@@ -91,7 +91,7 @@ p {
     margin-bottom: 1em;
     font-size: 37px;
     font-family: 'Playfair Display', serif;
-    color: #212D72;
+    color: #000000;
     width: 120%;
 }
 
@@ -108,7 +108,7 @@ p {
     margin-bottom: 27px;
     font-size: 37px;
     font-family: 'Playfair Display', serif;
-    color: #212D72;
+    color: #000000;
     width: 120%;
 }
 
@@ -118,7 +118,7 @@ p {
     margin-bottom: 27px;
     font-size: 37px;
     font-family: 'Playfair Display', serif;
-    color: #212D72;
+    color: #000000;
     width: 120%;
 }
 
@@ -129,7 +129,7 @@ p {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
-    color: #212D72;
+    color: #000000;
     width: 120%;
 }
 
@@ -163,7 +163,7 @@ a {
 
 .social-media {
     color: #FFF;
-    background-color: #212D72;
+    background-color: #000000;
     text-decoration: none;
 }
 
@@ -176,7 +176,7 @@ a {
 
 .link-post {
     color: #FFF;
-    background-color: #212D72;
+    background-color: #000000;
     text-decoration: none;
 }
 
