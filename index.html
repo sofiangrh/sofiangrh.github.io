@@ -1,55 +1,331 @@
 <!DOCTYPE html>
-<html>
-    <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
-    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
-    <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+<html class="no-js ss-preload" lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Sofian Nugraha</title>
-    <link href="./assets/img/favs.png" rel="shortcut icon" type="image/x-icon"/>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;700&family=Playfair+Display:wght@700&family=Playfair+Display&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/blocks.min.css">
-    <link rel="stylesheet" href="./assets/css/main.min.css">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Sofian</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
-<body data-new-gr-c-s-check-loaded="14.992.0" data-gr-ext-installed="" cz-shortcut-listen="true">
-    <main>
-        <header>
-            <h1>Sofian, <br>
-                Programmer, <br>
-                Visual Storyteller.
-            </h1>
 
-            <p class="judul">Sofian</p>
-            <p>Hi, my name is Sofian Nugraha. I'm currently living in Tasikmalaya, West Java, Indonesia.</p>
-            <p class="quote"><i>“Indeed we belong to Allah, <br> and indeed to Him we will return.”</i></p>
-            <p class="quote-bottom">Quran 2:156</p>
+<body id="top">
 
-            <p class="judul">Programmer</p>
-            <p>I am a programmer by day. Currently working as a web programmer at <a href="https://unsil.ac.id/" target="_blank">Siliwangi University</a>. The working environment here is a fast-paced working. It's challenging. I'm learning a lot and I plan to be here for a while.<br><br>
-            
-                My current programming philosophy is to be problem-solving. Sure, I still follow trends and find references from <i>stackoverflow</i> etc—but I have to make sure that it screams like it was made by me.
-            </p>
-            <p class="quote"><i>“Your job is not and shall, never be yours. <br>Your career is yours. Your career is you.”</i></p>
-            <p class="quote-bottom">From "Your Job Is Not Your Career" by René Suhardono</p>
 
-            <p class="judul">Visual Storyteller</p>
-            <p>I also designing interfaces in software or computerized devices, focusing on looks or style inspired by experiences, and conversations with some strangers I've met in certain time, and it was fun.</p>
-            
-            <p class="quote"><i>“Design is not just what it looks like and feels like. Design is how it works.”</i></p>
-            <p class="quote-bottom">Steve Jobs</p>
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
 
-            <p class="judul">Other Activities.</p>
-            <p>I'm not quite active on social media, but here's if you might be interested in connecting with me online:<br><br>
 
-                <a class="social-media" href="https://github.com/sofiangrh/" target="_blank">Github</a> is where I share my programming projects.<br><br>
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
-                <a class="social-media" href="https://dribbble.com/sofiangrh" target="_blank">Dribbble</a> is where I post my UI design, professionally.
-            </p>
-            
-            <p class="penutup"><i>Thanks for visiting, and <br> for reading my story.</i></p>
-            <p class="quote-bottom">Sofian.</p>
-        </header> 
-    </main>
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Sofian.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link">Sofian.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Sofian
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            is a Programmer, <br>
+                            based in Tasikmalaya, Indonesia. <br>
+                        </h1>
+                    </div>
+
+                    <ul class="intro-social">
+                        <li><a href="https://github.com/sofiangrh/" target="blank_">Github</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+                <div class="row about-info wide" data-animate-block>
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/about-photo.png" 
+                             srcset="images/about-photo.png 1x, images/about-photo@2x.png 2x" alt="" class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                I'm a passionate programmer with a strong background in web development,
+                                data processing, and database optimization. I specialize in backend 
+                                development and seamless system integration.<br><br>
+
+                                Besides traditional development, I'm also deeply interested in crypto 
+                                and blockchain technology and am actively expanding my knowledge in this field.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>Web Development</li>
+                            <li>Data Processing</li>
+                            <li>Database Optimization</li>
+                            <li>PHP Framework</li>
+                        </ul>
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+                    <div class="column lg-6 tab-12">
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Siliwangi University</h3>
+                                    <h5 class="timeline__meta">Web Programmer</h5>
+                                    <p class="timeline__timeframe">July 2019 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Present, I’m still actively working on SIPAUS, improving the Treasurer Accountability 
+                                        Report module for BLU (Public Service Agency) funding, making financial reporting smoother and more transparent.
+                                    </p>
+
+                                    <p>In 2020, I worked on enhancing the SIPAUS Budget Management System at Siliwangi University 
+                                       (an existing system at the time). I added new features for initial budget proposals and fund withdrawal planning, 
+                                       improving the efficiency of financial management processes.
+                                    </p>
+
+                                    <p>In 2019, I developed the Test of English Proficiency (TELP) 
+                                       V1 application for the Siliwangi University Language Centre. 
+                                       TELP was designed as an English proficiency test for academic purposes, 
+                                       helping students meet graduation requirements at the time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Siliwangi University</h3>
+                                    <h5 class="timeline__meta">Bachelor of Computer Science </h5>
+                                    <p class="timeline__timeframe">July 2020</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        I earned my Bachelor’s degree in Computer Science from the Faculty of Engineering at Siliwangi University, 
+                                        majoring in Informatics Engineering and graduating in 2020.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- end timeline -->
+                    </div> <!-- end column -->
+                </div> <!-- end about-timelines -->
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+                <div class="row works-portfolio">
+                    <div class="column lg-12" data-animate-block>
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my works I have done lately. Feel free to check them out.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/porto1.jpg"
+                                             srcset="images/portfolio/porto1.jpg 1x, images/portfolio/porto1@2x.jpg 2x"  alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            SIPAUS App
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Selection of Fiscal Year When Logging in
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+                        </ul> <!-- end folio-list -->
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-porto1.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Selection of Fiscal Year When Logging in</h5>
+                                <p>This feature lets users select a past fiscal year without changing the entire system like the previous feature. 
+                                    It allows users to view budget data as needed based on their session.</p>
+                            </div>
+                
+                            <!-- <a href="#" class="modal-popup__details">See the Workflow</a> -->
+                        </div>
+                    </div> <!-- end modal -->
+                </div> <!-- end works-portfolio -->
+            </section> <!-- end s-works -->
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I’d love to hear from you!<br> Whether you have a question or 
+                            just want to chat about tech or anything that interests you, 
+                            feel free to reach out.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:id.sofiangrh@gmail.com" class="mailtoui">id.sofiangrh@gmail.com</a> <br>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://github.com/sofiangrh/" target="blank_">Github</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:id.sofiangrh@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+            </section> <!-- end contact -->
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Sofian 2025</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
