@@ -1,5 +1,5 @@
-# Tentang
-Sebuah catatan dari seorang mahasiswa sederhana. Diberdayakan oleh [Jekyll](http://jekyllrb.com/).
+# About
+My personal blog.
 
-# Tema
-Tema yang digunakan adalah [Mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll/) dibangun oleh [Wowthemesnet](https://github.com/wowthemesnet/).
+# Theme
+Theme by [Themewagon](https://themewagon.com).
