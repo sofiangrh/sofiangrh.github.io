@@ -4238,3 +4238,26 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+.code-block {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 1em;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    line-height: 1.5;
+    white-space: pre;
+}
+
+.code-block code {
+    display: block;
+}
+
+.code-block::before {
+    content: "Kode:";
+    display: block;
+    font-weight: bold;
+    color: #66d9ef;
+    margin-bottom: 0.5em;
+}

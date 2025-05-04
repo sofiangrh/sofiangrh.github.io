@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Selection of Fiscal Year When Logging in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/vendor.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+
+    <div class="s-pagewrap">
+
+        <!-- Header -->
+        <header class="s-header">
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="../" class="home-link">Sofian.</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="s-content">
+            <section id="works" class="s-about target-section">
+                <div class="row">
+                    <div class="column lg-12">
+                        <h1>Selection of Fiscal Year When Logging in</h1>
+                        <h4>How the Story Came to Be...</h4>
+                        <p>Back in the previous version of SIPAUS, the login page didn’t have an option to choose the fiscal year. 
+                            So basically, the Admin had to set the fiscal year from the master settings, and whatever they picked would apply to all units—no individual selections or anything like that.<br><br>
+                            
+                            <img src="../images/works/1.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto;"><br><br>
+
+                            At some point, we realized it was important to be able to switch between fiscal years easily—especially when there were financial audits from the Inspectorate General of the Ministry or even The Audit Board of Indonesia (Indonesian: Badan Pemeriksa Keuangan Republik Indonesia).<br><br>
+
+                            The problem was, if another user needed to check data from a different fiscal year, they had to contact the admin just to change the year setting. That setup wasn’t practical at all. It slowed things down and could mess with transactions in the current fiscal year, 
+                            which obviously isn’t ideal—especially during audits when things need to move fast and smooth.
+                        </p>
+
+                        <h4>The solution I came up with.</h4>
+                        <p>
+                            I implemented a dynamic fiscal year mechanism in SIPAUS, where the fiscal year is determined based on the user's 
+                            selection at the login page. This allows each user session to maintain its own fiscal year context independently, ensuring that users can access and interact with data relevant to the selected audit period without affecting other users or the current operational year.<br><br>
+
+                            The login page was designed using Figma, then converted into HTML and integrated within the Blade view through the Auth Login function.
+
+                            <img src="../images/works/design-process.gif" style="max-width: 70%; height: auto; display: block; margin: 0 auto;"><br><br>
+
+                            And here's the final version of the login page, now with a fiscal year selection feature.<br><br>
+
+                            <img src="../images/works/login.png" style="max-width: 50%; height: auto; display: block; margin: 0 auto;"><br><br>
+
+                            To add fiscal year session support, I included a <code>tahun_id</code> field in <code>auth_user</code>, which lets the system display data based on the fiscal year selected during login. With this addition, each user sees a different fiscal year view without affecting others.<br><br>
+
+                            Then I updated the <code>login_post</code> function from this:
+
+                            <pre class="code-block"><code>
+                                $this->session->set_flashdata('loginStatus','success');
+                                $tahunanggaran = Tahunanggaran::all();
+                                            
+                                Tahunauth::where('user_id', '=', Users::find($this->aauth->get_user_id())->id)->delete();
+                                $tahunauth = new Tahunauth;
+                                $tahunauth->user_id = Users::find($this->aauth->get_user_id())->id;
+                                $inputThn = explode(",", $input['tahunanggaran']);
+                                $tahunauth->tahun_id = $inputThn[0];
+                                $tahunauth->tahun = $inputThn[1];
+                                $tahunauth->save();
+                                            
+                                $session = [
+                                    'tahun_rab_aktif' => $tahunanggaran->where('is_rab','=',1)->first()->id,
+                                    'tahun_realisasi_aktif' => $tahunanggaran->where('is_realisasi','=',1)->first()->id,
+                                    'tahun_pengajuan_aktif' => $tahunanggaran->where('is_pengajuan','=',1)->first()->id,
+                                    'tahun_filter_aktif' => $tahunanggaran->where('is_filter','=',1)->first()->id,
+                                    'tahun_sbm_aktif' => $tahunanggaran->where('is_sbm','=',1)->first()->id,
+                                ];
+                            </code></pre>
+                                
+                            To this:
+                            <pre class="code-block"><code>
+                                $this->session->set_flashdata('loginStatus','success');
+                                $tahunanggaran = Tahunanggaran::all();
+                                            
+                                Tahunauth::where('user_id', '=', Users::find($this->aauth->get_user_id())->id)->delete();
+                                $tahunauth = new Tahunauth;
+                                $tahunauth->user_id = Users::find($this->aauth->get_user_id())->id;
+                                $inputThn = explode(",", $input['tahunanggaran']);
+                                $tahunauth->tahun_id = $inputThn[0];
+                                $tahunauth->tahun = $inputThn[1];
+                                $tahunauth->save();
+                                            
+                                $session = [
+                                    'tahun_anggaran_aktif' => $tahunauth->where('user_id', '=', Users::find($this->aauth->get_user_id())->id)->first()->tahun_id,
+                                ];
+                            </code></pre>
+
+                            By adding the line <code>'tahun_anggaran_aktif' => $tahunauth->where('user_id', '=', Users::find($this->aauth->get_user_id())->id)->first()->tahun_id</code>, the system reads the <code>tahun_id</code> session selected during login. This way, the budget data shown to the user automatically follows the selected fiscal year.
+                        </p>
+                        
+                        <h4>Quick Recap:</h4>
+                        <p>
+                            Adding a <code>tahun_id</code> session to <code>auth_user</code> solves the issue of having different fiscal year selections for each user without interfering with others. Previously, switching to a different fiscal year required admin changes, which affected ongoing transactions in the current year. 
+                            This created unnecessary delays and potential risks in the workflow, especially during audits or when real-time data was needed.<br><br>
+
+                            Now, by allowing users to select the fiscal year directly on the login page, the session is set individually for each user. This way, users can access data specific to the fiscal year they need without impacting other users or disrupting the integrity of the ongoing transactions in the current fiscal year. 
+                            The system is now more efficient and flexible, supporting better user-specific experiences while maintaining data consistency.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="s-footer">
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Sofian 2025</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
