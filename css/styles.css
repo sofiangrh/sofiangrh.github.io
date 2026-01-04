@@ -4255,7 +4255,7 @@ img.u-pull-left {
 }
 
 .code-block::before {
-    content: "Kode:";
+    content: "Code:";
     display: block;
     font-weight: bold;
     color: #66d9ef;
