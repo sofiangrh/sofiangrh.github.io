@@ -14,83 +14,80 @@
    /* Animations
     * -------------------------------------------------- */
     const tl = anime.timeline( {
-        easing: 'easeInOutCubic',
-        duration: 800,
+        easing: 'easeOutCubic',
+        duration: 500,
         autoplay: false
     })
     .add({
         targets: '#loader',
         opacity: 0,
-        duration: 1000,
-        begin: function(anim) {
+        duration: 400,
+        begin() {
             window.scrollTo(0, 0);
         }
     })
     .add({
         targets: '#preloader',
         opacity: 0,
-        complete: function(anim) {
-            document.querySelector("#preloader").style.visibility = "hidden";
-            document.querySelector("#preloader").style.display = "none";
+        duration: 300,
+        complete() {
+            const p = document.querySelector('#preloader');
+            p.style.display = 'none';
+            p.style.visibility = 'hidden';
         }
     })
     .add({
         targets: '.s-header',
-        translateY: [-100, 0],
-        opacity: [0, 1]
+        translateY: [-50, 0],
+        opacity: [0, 1],
+        duration: 300
     }, '-=200')
     .add({
-        targets: [ '.s-intro .text-pretitle', '.s-intro .text-huge-title'],
-        translateX: [100, 0],
+        targets: ['.s-intro .text-pretitle', '.s-intro .text-huge-title'],
+        translateX: [50, 0],
         opacity: [0, 1],
-        delay: anime.stagger(400)
-    })
-    .add({
-        targets: '.circles span',
-        keyframes: [
-            {opacity: [0, .3]},
-            {opacity: [.3, .1], delay: anime.stagger(100, {direction: 'reverse'})}
-        ],
-        delay: anime.stagger(100, {direction: 'reverse'})
-    })
+        delay: anime.stagger(150)
+    }, '-=200')
     .add({
         targets: '.intro-social li',
-        translateX: [-50, 0],
+        translateX: [-30, 0],
         opacity: [0, 1],
-        delay: anime.stagger(100, {direction: 'reverse'})
-    })
+        delay: anime.stagger(80, { direction: 'reverse' })
+    }, '-=300')
     .add({
         targets: '.intro-scrolldown',
-        translateY: [100, 0],
-        opacity: [0, 1]
-    }, '-=800');
+        translateY: [50, 0],
+        opacity: [0, 1],
+        duration: 300
+    }, '-=300');
 
 
 
    /* Preloader
     * -------------------------------------------------- */
     const ssPreloader = function() {
-
         const preloader = document.querySelector('#preloader');
         if (!preloader) return;
-        
-        window.addEventListener('load', function() {
-            document.querySelector('html').classList.remove('ss-preload');
-            document.querySelector('html').classList.add('ss-loaded');
 
-            document.querySelectorAll('.ss-animated').forEach(function(item){
-                item.classList.remove('ss-animated');
+        const startLoader = () => {
+            document.documentElement.classList.remove('ss-preload');
+            document.documentElement.classList.add('ss-loaded');
+
+            document.querySelectorAll('.ss-animated').forEach(el => {
+                el.classList.remove('ss-animated');
             });
 
             tl.play();
+        };
+
+        // cepat
+        document.addEventListener('DOMContentLoaded', startLoader);
+
+        // fallback jika DOM lambat
+        window.addEventListener('load', () => {
+            if (!tl.completed) startLoader();
         });
-
-        // force page scroll position to top at page refresh
-        // window.addEventListener('beforeunload' , function () {
-        //     // window.scrollTo(0, 0);
-        // });
-
-    }; // end ssPreloader
+    };
 
 
    /* Mobile Menu
