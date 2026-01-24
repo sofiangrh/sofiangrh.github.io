@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Budget Breakdown by Unit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/vendor.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+
+    <div class="s-pagewrap">
+
+        <!-- Header -->
+        <header class="s-header">
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="../" class="home-link">Sofian.</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="s-content">
+            <section id="works" class="s-about target-section">
+                <div class="row">
+                    <div class="column lg-12">
+                        <h1>Budget Breakdown by Unit</h1>
+                        <h4>Here's an interesting fact..</h4>
+                        <p>Learning from last year’s university accreditation experience, in the finance section we faced difficulties in identifying the amount of budget allocated per category as required by the assessors. 
+                            There are two main parts: <u>sources of funds and use of funds.</u><br><br>
+
+                            <u>Sources of funds</u> include all income received by the university from students (UKT, IPI, KIP-K), ministries, revenue from state property, cooperations, research and other sources.<br><br>
+
+                           <u>Use of funds</u> refers to all expenditures made according to the work plan stated in the current year’s DIPA (Budget Implementation List). 
+                           The categories include: Office Operational Funds, Learning Process Operational Funds, Research Funds, Community Service Funds, Infrastructure Investment, 
+                           Facilities Investment, Human Resource Investment, and Student Activities.<br><br>
+
+                           <img src="../images/works/complicated.jpg" style="max-width: 40%; height: auto; display: block; margin: 0 auto;"><br><br>
+
+                           In general, SIPAUS doesn't have a feature to classify activities into these categories, so we have to process the data manually. 
+                           This becomes even more complicated when faculties or study programs are preparing for accreditation and need the same type of data.
+                        </p>
+
+                        <h4>So the soluction is..</h4>
+                        <p>
+                            I created a budget allocation breakdown per unit based on two categories: static and dynamic. The dynamic category is based on budget 
+                            classifications selected by each user in the RAB sub-component, while the static category refers to consolidated budgets allocated under the BKU / Sarana Prasarana unit, 
+                            but used by individual units.<br><br>
+
+                            The usage data for the static category is obtained from Excel files processed using PhpSpreadsheet. Even though the data is handled manually, 
+                            it can still be identified per work unit, because the data appears after payments are made in the current year. 
+                            Examples include salaries, meal allowances, performance allowances, and lecturer professional allowances. Although the budget is allocated 
+                            under the BKU unit, its usage is actually for each respective unit.<br><br>
+
+                            For other consolidated budgets besides personnel expenses (such as salaries, meal allowances, performance allowances, 
+                            and lecturer professional allowances), the data comes from the Facilities and Infrastructure Unit. The accountability and 
+                            implementation are handled by the Rectorate, but the beneficiaries remain the individual units.<br><br>
+
+                            The following section presents the detailed breakdown of the dynamic and static categories:
+
+                            <table>
+                                <tr>
+                                    <th>Consolidated Budget (Static)</th>
+                                    <th>Operational Budget (Dynamic)</th>
+                                    <th>Revenue (Static)</th>
+                                </tr>
+                                <tr>
+                                    <td>Salary</td>
+                                    <td>Office Operational Funds</td>
+                                    <td>Tuition Fee (UKT)</td>
+                                </tr>
+                                <tr>
+                                    <td>Meal Allowance</td>
+                                    <td>Teaching and Learning Operational Funds</td>
+                                    <td>IPI</td>
+                                </tr>
+                                <tr>
+                                    <td>Performance Allowance</td>
+                                    <td>Research Funds</td>
+                                    <td>KIPK</td>
+                                </tr>
+                                <tr>
+                                    <td>Lecturer Professional Allowance</td>
+                                    <td>Community Service Funds</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Facilities Investment</td>
+                                    <td>Infrastructure Investment</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Infrastructure Investment</td>
+                                    <td>Facilities Investment</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Human Resources Investment</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Student Activities</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+
+                            This budget per category is displayed based on the selected fiscal year session at login. 
+                            I use queries in the DataTables controller to reduce data loading time. More or less, 
+                            the final display looks like this.<br><br>
+
+                            <img src="../images/works/work_2_1.png" style="max-width: 70%; height: auto; display: block; margin: 0 auto;"><br>
+                            
+                            The realization data above is taken from the realization table and summed up by the 
+                            UNSIL unit based on operational budget categories for all units.
+                        </p>
+                        
+                        <h4>Quick Recap:</h4>
+                        <p>
+                            By displaying the budget breakdown per unit in this statistics section, users can directly 
+                            see the budget by the categories needed for accreditation without having to process the 
+                            data manually. Even if manual processing is still required, it is far less complicated than 
+                            before, since the budget breakdown per unit is already available.<br><br>
+
+With this feature, it is expected to help improve data transparency for all unit leaders and the public.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="s-footer">
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Sofian 2025</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
